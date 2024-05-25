@@ -1,5 +1,5 @@
 module "naming" {
-  source = "../naming"  # Update this path if using GitHub URL
+  source = "../naming" 
 
   for_each = var.resources
 
